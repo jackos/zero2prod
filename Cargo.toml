@@ -10,6 +10,7 @@ actix-web = "=4.0.0-beta.8"
 actix-http = "=3.0.0-beta.9"
 tokio = "1.13.0"
 serde = { version = "1.0.130", features = ["derive"] }
+config = "0.11.0"
 
 [lib]
 path = "src/lib.rs"
